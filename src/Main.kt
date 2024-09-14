@@ -1,15 +1,15 @@
 fun main() {
-    val lbs = 167
+    val lbs = 125
     val toKgs = lbs * 0.4535
     println("Weight in pounds (lbs): $lbs")
     println("Weight in kilograms (kgs): $toKgs")
     separator()
-    val mi = 5
+    val mi = 10
     val km = mi * 1.6093
     println("\nLength in Miles (mi): $mi")
     println("Length in Kilometers: $km")
     separator()
-    val fahrenheit = 210
+    val fahrenheit = -40
     val celsius = ((fahrenheit - 32) * 5) / 9
     println("\nTemperature in Fahrenheit (F): $fahrenheit")
     println("Temperature in Celsius (C): $celsius")
